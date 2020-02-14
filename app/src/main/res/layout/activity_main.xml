@@ -11,9 +11,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bindingExpression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expression"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bindingList" />
 
 </android.support.constraint.ConstraintLayout>

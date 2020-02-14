@@ -4,7 +4,8 @@ import android.databinding.BaseObservable
 import android.databinding.Bindable
 import android.databinding.ObservableBoolean
 
-class Employee constructor(firstName: String, lastName: String, isFired: Boolean) : BaseObservable() {
+class Employee constructor(firstName: String, lastName: String, isFired: Boolean) :
+    BaseObservable() {
     @get:Bindable
     var firstName: String? = null
         set(userInput) {
@@ -18,6 +19,8 @@ class Employee constructor(firstName: String, lastName: String, isFired: Boolean
             notifyPropertyChanged(BR.lastName)
         }
     var isFired = ObservableBoolean()
+    @get:Bindable
+    var avatar: String? = null
 
     init {
         this.firstName = firstName
