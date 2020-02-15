@@ -9,11 +9,8 @@ import android.support.annotation.RequiresApi
 import android.transition.TransitionManager
 import android.view.View
 import android.view.ViewGroup
-import com.xjh.databinding.Employee
 import com.xjh.databinding.R
 import com.xjh.databinding.databinding.ActivityAnimationBinding
-import com.xjh.databinding.databinding.ActivityExpressionBinding
-import java.util.*
 
 class AnimationActivity : AppCompatActivity() {
 
