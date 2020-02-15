@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.xjh.databinding">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".list.ListActivity" />
-        <activity android:name=".expression.ExpressionActivity"></activity>
+        <activity android:name=".expression.ExpressionActivity" />
+        <activity android:name=".animation.AnimationActivity" />
     </application>
 
 </manifest>
